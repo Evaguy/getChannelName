@@ -8,10 +8,18 @@ that's why i've made this script using Apps Script!
 ## how?
 it fetches YouTube's HTML, extracts the channel name via regex, removes " - Topic", adds a quote prefix to prevent auto-linking, and returns the clean artist name.
 
+finally, you just need to call it like this, in your google sheet :
+
+(just replace "cell_id" with the cell containing the url) :
+
+```
+=getChannelName(cell_id)
+```
+
 ## how about the title?
 i've said it before, you can export the title of a song on a google sheet, with this command 
 
-(just replace "cell_id" with the cell containing the url) :
+(again, replace "cell_id" so that it works) :
 
 ```
 =SUBSTITUE(IMPORTXML(cell_id;"//meta[@name='title']/@content");" - YouTube Music";"")
