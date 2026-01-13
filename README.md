@@ -1,7 +1,7 @@
 # getChannelName
 Script that extract the artist name from a song on Youtube without using any kind of API !
 ## why?
-apparently you can export the title of a song on a google sheet, but not the artist/channel name.
+apparently, when i was trying to extract metadata from a url for a project, you can export the title of a song on a google sheet, but not the artist/channel name.
 
 that's why i've made this script using Apps Script!
 
