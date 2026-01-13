@@ -20,6 +20,5 @@ i've said it before, you can export the title of a song on a google sheet, with 
 that's the reason why this script only export the artist name (since i already know the song name).
 
 ## todo
-* add the script lmao
 * try to find a way to remove the "'" when the artist in exported in google sheet
 * write a how-to guide (if im not lazy)
