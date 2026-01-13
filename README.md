@@ -1,5 +1,5 @@
 # getChannelName
-Script that extract the artist name from a song on Youtube.
+Script that extract the artist name from a song on Youtube without using any kind of API !
 ## why?
 apparently you can export the title of a song on a google sheet, but not the artist/channel name.
 
