@@ -5,6 +5,8 @@ apparently, when i was trying to extract metadata from a url for a project, you 
 
 that's why i've made this script using Apps Script!
 
+also, for some reasons this only works for youtube music. trying to use the script on a normal youtube link doesn't work, so now i gotta see what's wrong or what do i need to add in the script so that it works...
+
 ## how?
 it fetches YouTube's HTML, extracts the channel name via regex, removes " - Topic", adds a quote prefix to prevent auto-linking, and returns the clean artist name.
 
@@ -28,5 +30,6 @@ i've said it before, you can export the title of a song on a google sheet, with 
 that's the reason why this script only export the artist name (since i already know the song name).
 
 ## todo
-* try to find a way to remove the "'" when the artist in exported in google sheet
+* fix normal youtube link issue
+* find a way to remove the "'" when the artist in exported in google sheet
 * write a how-to guide (if im not lazy)
